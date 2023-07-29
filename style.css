@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.deliveryinner {
+    background-image: url(./banner.png);
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.bannercontent {
+    /* width: 40%; */
+    padding: 150px;
+}
+
+.bannercontent h1 {
+    font-size: 65px;
+    font-weight: 900;
+    color: #272B25;
+}
+
+.bannercontent p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.multiple {
+    display: flex;
+    padding: 70px 0 100px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* image section  */
+.hero_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero_img>img {
+    width: 425px;
+}
+
+.firstimage>img {
+    /* width: 40px; */
+    overflow: hidden;
+    width: 45px;
+}
+
+.secondimage>img {
+    overflow: hidden;
+    width: 45px;
+}
+
+.thirdimage>img {
+    overflow: hidden;
+    width: 45px;
+}
+
+.appleimage {
+    display: flex;
+    gap: 10px;
+}
+
+.d_imgae {
+    overflow: hidden;
+    width: 100px;
+}
+
+.cardimage>img {
+    width: 60px;
+}
+
+.card2image>img {
+    width: 60px;
+}
+
+.firstlogo>img {
+    width: 145px;
+}
+
+
+
+.Download {
+    /* display: flex; */
+}
+
+.Download>img {
+    width: 250px;
+    border-radius: 40px;
+}
+
+/* image section  */
+
+.multiple div {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.multiple div div {
+    background-color: #FFF5F0;
+    width: 127px;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0px auto;
+
+}
+
+.multiple div h1 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.multiple div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #676767;
+
+}
+
+.Download {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+
+}
+
+.downloadinner {
+    /* background-image: url(./download_now_bg.png); */
+    height: 600px;
+    /* width: 80%; */
+    border-radius: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+
+
+}
+
+.imageiphone {
+    position: absolute;
+    height: 750;
+    left: 200px;
+
+}
+
+.downloadrightcontent h1 {
+
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #31372D;
+
+}
+
+.downloadrightcontent p {
+
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #272B25;
+
+}
+
+.downloadrightcontent input {
+
+    width: 359px;
+    height: 46px;
+    padding-left: 14px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+
+}
+
+.downloadrightcontent button {
+
+    width: 110px;
+    height: 46px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background: #FF5600;
+    border: 1px solid #FF5600;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-left: 10px;
+
+}
+
+.appleimage {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.imagegoogle {
+    margin-left: 10px;
+
+}
+
+.driver {
+    width: 100%;
+    background-color: #F4F5F6;
+    height: 200px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.driverinner {
+
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.driverinner>div {
+
+    background-color: white;
+    border-radius: 18px;
+    padding: 14px 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e9e2be;
+    width: 430px;
+    height: 122px;
+    margin-left: 32px;
+}
+
+.driverinner div div {
+    width: 94px;
+    height: 94px;
+    background: #FFF0E9;
+    border: 1px solid #FFF0E9;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerrapper {
+
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerrapper p {
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #272B25;
+
+}
+
+.headerrapper {
+    position: absolute;
+    background: transparent;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 64px;
+    padding-left: 81px;
+}
+
+.headerlogo {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
